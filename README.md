@@ -1,16 +1,18 @@
-### Hi there 👋
+### Hi! My name is Jonathan Hoffstadt 👋
+I'm a mechanical engineer who happens to write a lot of code. It's probably my favorite thing to do.
 
-<!--
-**hoffstadt/hoffstadt** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+#### I'm currently working on
+- [Dear PyGui](https://github.com/hoffstadt/DearPyGui)
+- [mvThreadPool](https://github.com/hoffstadt/mvThreadPool)
+- [MarvelGraph](https://github.com/hoffstadt/MarvelGraph)
 
-Here are some ideas to get you started:
+#### Articles I've written
+- [Python GUIs with DearPyGui](https://itnext.io/python-guis-with-dearpygui-137f4a3360f2)
+- [C/C++ for the Python Developer: Introduction](https://itnext.io/c-c-for-the-python-developer-introduction-8b12ae77d079)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+#### Where to find me
+- [Facebook](https://www.facebook.com/jonathan.hoffstadt)
+- [Twitter](https://twitter.com/jhoffstadt)
+- [LinkedIn](https://www.linkedin.com/in/jonathan-hoffstadt/)
+
+![Jonathans's Github Stats](https://github-readme-stats.vercel.app/api?username=hoffstadt&show_icons=true&theme=radical)
