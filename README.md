@@ -15,4 +15,4 @@ I'm a mechanical engineer who happens to write a lot of code. It's probably my f
 - [Twitter](https://twitter.com/jhoffstadt)
 - [LinkedIn](https://www.linkedin.com/in/jonathan-hoffstadt/)
 
-![Jonathans's Github Stats](https://github-readme-stats.vercel.app/api?username=hoffstadt&show_icons=true&theme=radical)
+![Jonathans's Github Stats](https://github-readme-stats.vercel.app/api?username=hoffstadt&show_icons=true&theme=radical&count_private=true&show_icons=true)
