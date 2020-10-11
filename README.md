@@ -3,12 +3,6 @@ I'm a mechanical engineer who happens to write a lot of code. It's probably my f
 
 #### I'm currently working on
 - [Dear PyGui](https://github.com/hoffstadt/DearPyGui)
-- [mvThreadPool](https://github.com/hoffstadt/mvThreadPool)
-- [MarvelGraph](https://github.com/hoffstadt/MarvelGraph)
-
-#### Articles I've written
-- [Python GUIs with DearPyGui](https://itnext.io/python-guis-with-dearpygui-137f4a3360f2)
-- [C/C++ for the Python Developer: Introduction](https://itnext.io/c-c-for-the-python-developer-introduction-8b12ae77d079)
 
 #### Where to find me
 - [Facebook](https://www.facebook.com/jonathan.hoffstadt)
