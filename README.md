@@ -1,5 +1,4 @@
 ### Hi! My name is Jonathan Hoffstadt 👋
-I'm a mechanical engineer who happens to write a lot of code. It's probably my favorite thing to do.
 
 #### I'm currently working on
 - [Dear PyGui](https://github.com/hoffstadt/DearPyGui)
