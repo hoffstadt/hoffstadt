@@ -1,7 +1,7 @@
 ### Hi! My name is Jonathan Hoffstadt 👋
 
 - 🔭 I'm currently working on [Dear PyGui](https://github.com/hoffstadt/DearPyGui)
-- 💬 Ask me about anything [here](https://github.com/hoffstadt/hoffstadt/issues)
+- 💬 Ask me about anything [here](https://github.com/hoffstadt/hoffstadt/discussions)
 
 #### Where to find me
 - [Facebook](https://www.facebook.com/jonathan.hoffstadt)
