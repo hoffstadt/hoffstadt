@@ -1,6 +1,6 @@
 ### Hi! My name is Jonathan Hoffstadt 👋
 
-- 🔭 I'm currently working on [Dear PyGui](https://github.com/hoffstadt/DearPyGui)
+- 🔭 I'm currently working on [Dear PyGui](https://github.com/hoffstadt/DearPyGui) and [Marvel 3D](https://github.com/hoffstadt/Marvel3D)
 - 💬 Ask me about anything [here](https://github.com/hoffstadt/hoffstadt/discussions)
 
 #### Where to find me
@@ -11,7 +11,13 @@
 ![Jonathans's Github Stats](https://github-readme-stats.vercel.app/api?username=hoffstadt&show_icons=true&theme=radical&count_private=true&show_icons=true)
 ![Jonathans's Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=hoffstadt&layout=compact&card_width=250&theme=radical)
 
+<p align="center">
 <a href="https://github.com/hoffstadt/DearPyGui">
   <!-- Change the `github-readme-stats.anuraghazra1.vercel.app` to `github-readme-stats.vercel.app`  -->
   <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=hoffstadt&repo=DearPyGui&theme=radical" />
 </a>    
+<a href="https://github.com/hoffstadt/Marvel3D">
+  <!-- Change the `github-readme-stats.anuraghazra1.vercel.app` to `github-readme-stats.vercel.app`  -->
+  <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=hoffstadt&repo=Marvel3D&theme=radical" />
+</a> 
+</p>
