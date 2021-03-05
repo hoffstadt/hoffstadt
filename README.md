@@ -1,6 +1,6 @@
 ### Hi! My name is Jonathan Hoffstadt 👋
 
-- 🔭 I'm currently working on [Dear PyGui](https://github.com/hoffstadt/DearPyGui) and [Marvel 3D](https://github.com/hoffstadt/Marvel3D)
+- 🔭 I'm currently working on [Dear PyGui](https://github.com/hoffstadt/DearPyGui) and [Marvel](https://github.com/hoffstadt/Marvel)
 - 💬 Ask me about anything [here](https://github.com/hoffstadt/hoffstadt/discussions)
 
 #### Where to find me
