@@ -18,8 +18,8 @@
   <!-- Change the `github-readme-stats.anuraghazra1.vercel.app` to `github-readme-stats.vercel.app`  -->
   <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=hoffstadt&repo=DearPyGui&theme=radical" />
 </a>    
-<a href="https://github.com/hoffstadt/Marvel3D">
+<a href="https://github.com/hoffstadt/Marvel">
   <!-- Change the `github-readme-stats.anuraghazra1.vercel.app` to `github-readme-stats.vercel.app`  -->
-  <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=hoffstadt&repo=Marvel3D&theme=radical" />
+  <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=hoffstadt&repo=Marvel&theme=radical" />
 </a> 
 </p>
