@@ -1,7 +1,8 @@
 ### Hi! My name is Jonathan Hoffstadt 👋
 
 - 🔭 I'm currently working on:
-  * [Dear PyGui](https://github.com/hoffstadt/DearPyGui) : Fast and powerful Graphical User Interface Toolkit for Python with minimal dependencies
+  * [Dear PyGui](https://github.com/hoffstadt/DearPyGui): Fast and powerful Graphical User Interface Toolkit for Python with minimal dependencies
+  * [Dear PyGui Extensions](https://github.com/hoffstadt/DearPyGui_Ext): A collection of useful tools, abstractions, and simplification layers built with/for Dear PyGui users.
   * [Dear Py3D](https://github.com/hoffstadt/DearPy3D) : Vulkan 3D engine for _Dear PyGui_
   * [Charlie](https://github.com/hoffstadt/Charlie) : Directx 11 & Directx 12 3D engine
   * [Skyline](https://github.com/hoffstadt/Skyline) : Toy JaveScript/WebGL 3D engine
