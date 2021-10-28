@@ -5,7 +5,7 @@
   * [Dear PyGui Extensions](https://github.com/hoffstadt/DearPyGui_Ext): A collection of useful tools, abstractions, and simplification layers built with/for Dear PyGui users.
   * [Dear Py3D](https://github.com/hoffstadt/DearPy3D) : Vulkan 3D engine for _Dear PyGui_
   * [mvImporter](https://github.com/hoffstadt/mvImporter) : A single-file GLTF loader with no dependencies.
-  * [Charlie](https://github.com/hoffstadt/Charlie) : Directx 11 & Directx 12 3D engine
+  * [mv3D](https://github.com/hoffstadt/mv3D) : Toy Directx 11 & Directx 12 3D engine
   * [Skyline](https://github.com/hoffstadt/Skyline) : Toy JaveScript/WebGL 3D engine
   * [Hello Triangle](https://github.com/hoffstadt/HelloTriangle) : Graphics API Demos for _Metal_, _OpenGL_, _Directx 11_, _Directx 12_, _Vulkan_, and _WebGL_
 - 💬 Ask me about anything [here](https://github.com/hoffstadt/hoffstadt/discussions)
