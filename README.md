@@ -18,12 +18,4 @@
 
 <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hoffstadt&layout=compact&card_width=250&langs_count=6&theme=radical">
 
-<a href="https://github.com/hoffstadt/DearPyGui">
-  <!-- Change the `github-readme-stats.anuraghazra1.vercel.app` to `github-readme-stats.vercel.app`  -->
-  <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=hoffstadt&repo=DearPyGui&theme=radical" />
-</a>    
-<a href="https://github.com/hoffstadt/DearPy3D">
-  <!-- Change the `github-readme-stats.anuraghazra1.vercel.app` to `github-readme-stats.vercel.app`  -->
-  <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=hoffstadt&repo=DearPy3D&theme=radical" />
-</a> 
 </p>
