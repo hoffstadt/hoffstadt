@@ -2,6 +2,7 @@
 
 - 🔭 Working on:
   * [Pilot Light](https://github.com/pilot-light/pilotlight): A lightweight graphics engine
+  * [Dear PyGui 2](https://github.com/hoffstadt/DearPyGui2): Fast and powerful Graphical User Interface Toolkit for Python with minimal dependencies
   
 
 - 🛠 Maintaining:
