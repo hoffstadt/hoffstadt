@@ -1,7 +1,7 @@
 ### Hi! My name is Jonathan Hoffstadt 👋
 
 - 🔭 Working on:
-  * [Pilot Light](https://github.com/pilot-light/pilotlight): A lightweight graphics engine
+  * [Pilot Light](https://github.com/hoffstadt/pilotlight): A lightweight graphics engine
 
 - 🛠 Maintaining:
   * [Dear PyGui](https://github.com/hoffstadt/DearPyGui): Fast and powerful Graphical User Interface Toolkit for Python with minimal dependencies
