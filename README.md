@@ -1,10 +1,10 @@
 ### Hi! My name is Jonathan Hoffstadt 👋
 
 - 🔭 Working on:
-  * [Pilot Light UI](https://github.com/hoffstadt/pilotlight-ui): An immediate mode graphics user interface toolkit
-  * [Pilot Light Libs](https://github.com/hoffstadt/pilotlight-libs): Single file [stb-style](https://github.com/nothings/stb) libraries for C/C++
-  * [Pilot Light Build](https://github.com/hoffstadt/pilotlight-build): A simple lightweight build system for some of projects
-  * [Pilot Light](https://github.com/hoffstadt/pilotlight): My personal lightweight graphics engine for prototyping
+  * [Pilot Light UI](https://github.com/PilotLightTech/pilotlight-ui): An immediate mode graphics user interface toolkit
+  * [Pilot Light Libs](https://github.com/PilotLightTech/pilotlight-libs): Single file [stb-style](https://github.com/nothings/stb) libraries for C/C++
+  * [Pilot Light Build](https://github.com/PilotLightTech/pilotlight-build): A simple lightweight build system for some of projects
+  * [Pilot Light](https://github.com/PilotLightTech/pilotlight): My personal lightweight graphics engine for prototyping
 
 - 🛠 Maintaining:
   * [Dear PyGui](https://github.com/hoffstadt/DearPyGui): Fast and powerful Graphical User Interface Toolkit for Python with minimal dependencies
