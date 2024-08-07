@@ -1,10 +1,11 @@
 ### Hi! My name is Jonathan Hoffstadt 👋
 
 - 🔭 Working on:
-  * [Pilot Light UI](https://github.com/PilotLightTech/pilotlight-ui): An immediate mode graphics user interface toolkit
-  * [Pilot Light Libs](https://github.com/PilotLightTech/pilotlight-libs): Single file [stb-style](https://github.com/nothings/stb) libraries for C/C++
-  * [Pilot Light Build](https://github.com/PilotLightTech/pilotlight-build): A simple lightweight build system for some of projects
-  * [Pilot Light](https://github.com/PilotLightTech/pilotlight): My personal lightweight graphics engine for prototyping
+  * [Pilot Light](https://github.com/PilotLightTech/pilotlight): My personal lightweight game engine for prototyping
+     * Custom 3D engine with Vulkan/Metal backends
+     * Custom immediate mode graphics user interface toolkit
+     * Custom build system
+     * Collection of single file [stb-style](https://github.com/nothings/stb) libraries for C/C++
 
 - 🛠 Maintaining:
   * [Dear PyGui](https://github.com/hoffstadt/DearPyGui): Fast and powerful Graphical User Interface Toolkit for Python with minimal dependencies
