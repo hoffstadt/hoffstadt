@@ -22,9 +22,7 @@
 - 💬 Ask me about anything [here](https://github.com/hoffstadt/hoffstadt/discussions)
 
 #### Where to find me
-- [Facebook](https://www.facebook.com/jonathan.hoffstadt)
 - [Twitter](https://twitter.com/jhoffstadt)
-- [LinkedIn](https://www.linkedin.com/in/jonathan-hoffstadt/)
 
 <p align="center">
  
