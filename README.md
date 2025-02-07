@@ -22,7 +22,7 @@
 - 💬 Ask me about anything [here](https://github.com/hoffstadt/hoffstadt/discussions)
 
 #### Where to find me
-- [Twitter](https://twitter.com/jhoffstadt)
+- [Twitter](https://twitter.com/jhoffs1)
 
 <p align="center">
  
