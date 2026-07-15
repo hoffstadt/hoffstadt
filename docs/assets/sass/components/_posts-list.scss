@@ -1,0 +1,66 @@
+///
+/// Zenith by Pixelarity
+/// pixelarity.com | hello@pixelarity.com
+/// License: pixelarity.com/license
+///
+
+/* Posts List */
+
+	.posts-list {
+		article {
+			border-bottom: 1px solid;
+			margin-bottom: _size(element-margin) / 2;
+			padding-bottom: _size(element-margin) / 2;
+
+			&:last-of-type {
+				border: none;
+			}
+
+			> :last-child {
+				margin-bottom: 0;
+			}
+
+			a {
+				font-weight: _font(weight-bold);
+				text-decoration: none;
+			}
+
+			.date {
+				font-size: 0.85rem;
+				a {
+					font-weight: _font(weight);
+					text-decoration: underline;
+
+					&:hover {
+						text-decoration: none;
+					}
+				}
+			}
+		}
+	}
+
+	@mixin color-posts-list($p: null) {
+		.posts-list {
+			article {
+				border-color: _palette($p, border);
+
+				a {
+					color: _palette($p, fg);
+
+					&:hover {
+						color: _palette($p, fg-light);
+					}
+				}
+
+				.date {
+					color: _palette($p, fg-light);
+
+					a {
+						color: _palette($p, fg-light);
+					}
+				}
+			}
+		}
+	}
+
+	@include color-posts-list;

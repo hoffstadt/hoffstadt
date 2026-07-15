@@ -1,0 +1,127 @@
+///
+/// Zenith by Pixelarity
+/// pixelarity.com | hello@pixelarity.com
+/// License: pixelarity.com/license
+///
+
+/* Footer */
+
+	#footer {
+		@include color(invert);
+		@include padding(7rem, 0);
+		background: _palette(accent2);
+
+		a {
+			color: _palette(invert,fg);
+
+			&:hover {
+				color: _palette(invert,fg-bold);
+			}
+		}
+
+		.image {
+			border-color: _palette(bg);
+		}
+
+		section {
+			margin-bottom: _size(element-margin);
+		}
+
+		.sidebar {
+			margin-left: _size(element-margin);
+			width: _size(sidebar-width);
+		}
+
+		.content {
+			.split {
+				@include fixed-grid((
+					columns:	2,
+					gutters:	_size(element-margin)
+				));
+
+				div {
+					margin-bottom: _size(element-margin);
+				}
+			}
+		}
+
+		.copyright {
+			text-align: center;
+			margin-bottom: _size(element-margin);
+
+			span {
+				border: 1px solid;
+				color: _palette(fg-light);
+				display: inline;
+				margin: 0 auto;
+				padding: 1.5rem;
+				text-align:center;
+			}
+		}
+
+		@include breakpoint('<=large') {
+			@include padding(5rem, 0);
+
+			.sidebar {
+				min-width: (_size(sidebar-width) / 1.5);
+				width: (_size(sidebar-width) / 1.5);
+			}
+		}
+
+		@include breakpoint('<=medium') {
+			@include padding(5rem, 0);
+
+			section {
+				margin-bottom: (_size(element-margin) * 1.5);
+			}
+
+			.content {
+				.split {
+					ul, div {
+						margin-bottom: 0;
+					}
+				}
+			}
+
+			.sidebar {
+				width: 100%;
+				margin-left: 0;
+			}
+		}
+
+		@include breakpoint('<=small') {
+			@include padding(3rem, 0);
+
+			.copyright {
+				span {
+					display: block;
+					max-width: calc(100% - 3rem);
+					width: 100%;
+				}
+			}
+		}
+
+		@include breakpoint('<=xsmall') {
+			.content {
+				.split {
+					@include fixed-grid((
+						columns:		1,
+						gutters:		_size(element-margin),
+						prev-columns:	2
+					));
+
+					div {
+						margin-bottom: _size(element-margin);
+					}
+
+					> :last-child {
+						margin-bottom: 0;
+					}
+				}
+			}
+
+			.sidebar {
+				min-width: auto;
+			}
+		}
+	}

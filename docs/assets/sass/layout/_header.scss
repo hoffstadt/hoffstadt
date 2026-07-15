@@ -1,0 +1,230 @@
+///
+/// Zenith by Pixelarity
+/// pixelarity.com | hello@pixelarity.com
+/// License: pixelarity.com/license
+///
+
+/* Header */
+
+	$accent: invert;
+
+	body {
+		padding-top: _size(header-height);
+		position: relative;
+	}
+
+	#header {
+		@include vendor('align-items', 'center');
+		@include vendor('display', 'flex');
+		@include vendor('justify-content', 'space-between');
+		background: _palette(accent2);
+		color: _palette($accent, fg);
+		cursor: default;
+		height: _size(header-height);
+		left: 0;
+		line-height: _size(header-height);
+		padding-right: _size(element-margin);
+		position: fixed;
+		top: 0;
+		width: 100%;
+		z-index: _misc(z-index-base) + 10;
+
+		.logo {
+			background: _palette(accent1);
+			color: _palette($accent, fg-bold);
+			display: block;
+			height: _size(header-height);
+			line-height: _size(header-height);
+			padding: 0 _size(element-margin);
+			text-decoration: none;
+			width: auto;
+
+			strong {
+				color: _palette($accent, fg-bold);
+			}
+		}
+
+		a[href="#navPanel"] {
+			@include icon(false, solid);
+			color: _palette($accent, fg-bold);
+			display: none;
+			padding: 0 0 0 1.25rem;
+
+			&:before {
+				content: '\f0c9';
+				float: right;
+				line-height: inherit;
+				margin: 0 0 0 0.625rem;
+			}
+		}
+
+		nav {
+			@include vendor('flex', '0 1 auto');
+
+			> ul {
+				@include vendor('align-items', 'center');
+				@include vendor('display', 'flex');
+				line-height: inherit;
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+
+				> li {
+					line-height: inherit;
+					padding: 0;
+
+					&.opener {
+						a {
+							&:before {
+								content: "\f107";
+								font-family: 'Font Awesome 5 Free' ;
+								font-weight: 900;
+								padding-right: 0.5rem;
+							}
+						}
+
+						&.active {
+							a {
+								color: _palette($accent, fg-bold);
+							}
+						}
+					}
+
+					&:hover {
+						a {
+							color: _palette($accent, fg-bold);
+						}
+					}
+
+					> ul {
+						display: none;
+					}
+
+					a {
+						color: _palette($accent, fg);
+						display: block;
+						height: _size(header-height);
+						line-height: _size(header-height);
+						margin-left: 0.5rem;
+						padding: 0 1.5rem;
+						text-decoration: none;
+
+						&:hover, &:focus, &.active {
+							color: _palette($accent, fg-bold);
+						}
+
+						&.active {
+							border-bottom: 3px solid _palette(accent1);
+							font-weight: _font(weight-bold);
+						}
+					}
+
+					&:last-child {
+						a {
+							margin-right: 0 !important;
+						}
+					}
+				}
+			}
+
+			@at-root {
+				.dropotron {
+					background-color: transparentize(_palette(accent2), 0.05);
+					list-style-type: none;
+					margin: 0;
+					min-width: 10rem;
+					padding: 0.5rem;
+
+					&.level-0 {
+						margin: 0;
+					}
+
+					li {
+						padding: 0;
+						position: relative;
+
+						&.opener {
+							> a {
+								&:after {
+									content: "\f105";
+									font-family: 'Font Awesome 5 Free' ;
+									font-weight: 900;
+									line-height: inherit;
+									padding-left: 1rem;
+								}
+							}
+						}
+
+						&.active {
+							> a {
+								background-color: _palette(accent2);
+								color: _palette($accent, fg-bold) !important;
+							}
+						}
+					}
+
+					a {
+						@include vendor('transition', 'none');
+						border-bottom: 0;
+						color: _palette($accent, fg);
+						padding: 0.5rem 1rem;
+						text-decoration: none;
+
+						&:hover {
+							background-color: _palette(accent2);
+							color: _palette($accent, fg-bold) !important;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	@include breakpoint('<=medium') {
+		nav {
+			display: none;
+		}
+
+		#header {
+			padding-right: _size(element-margin) / 2;
+
+			a[href="#navPanel"] {
+				display: block;
+			}
+
+			.logo {
+				padding: 0 _size(element-margin) / 2;
+			}
+		}
+	}
+
+	@include breakpoint('<=small') {
+		body {
+			padding-top: 44px;
+		}
+
+		#header {
+			height: 44px;
+			line-height: 44px;
+
+			.logo {
+				height: 44px;
+				line-height: 44px;
+
+				span {
+					display: none;
+				}
+			}
+
+			a[href="#navPanel"] {
+				height: 2rem;
+				line-height: 2rem;
+			}
+		}
+	}
+
+	@include breakpoint('<=xsmall') {
+		#header {
+			min-width: 320px;
+		}
+	}

@@ -1,0 +1,50 @@
+///
+/// Zenith by Pixelarity
+/// pixelarity.com | hello@pixelarity.com
+/// License: pixelarity.com/license
+///
+
+/* Posts */
+
+	.post {
+		border-bottom: 1px solid _palette(border);
+		margin-bottom: (_size(element-margin) * 1.5);
+		padding-bottom: (_size(element-margin) * 1.5);
+
+		&:last-child {
+			border: none;
+			margin-bottom: _size(element-margin);
+			padding-bottom: 0;
+		}
+
+		.post-content {
+			@include vendor('display','flex');
+
+			.image {
+				margin-bototm: 0;
+				margin-right: _size(element-margin);
+			}
+
+			ul.actions {
+				margin-bottom: 0;
+			}
+		}
+
+		@include breakpoint('<=large') {
+			margin-bottom: _size(element-margin);
+			padding-bottom: _size(element-margin);
+
+			.post-content {
+				display: block;
+
+				.image {
+					margin-bottom: (_size(element-margin) / 2);
+					margin-right: 0;
+					width: 100%;
+					img {
+						width: 100%;
+					}
+				}
+			}
+		}
+	}

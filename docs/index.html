@@ -1,365 +1,328 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Zenith by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
+-->
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Jonathan Hoffstadt</title>
-</head>
+	<head>
+		<title>Jonathan Hoffstadt | Graphics & Systems Engineer</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="Portfolio of Jonathan Hoffstadt, a graphics and systems engineer specializing in real-time rendering, engine architecture, developer tools, and high-performance applications." />
+		<meta name="keywords" content="Jonathan Hoffstadt, graphics engineer, rendering engineer, game engine, Pilot Light, Dear PyGui, Vulkan, Metal, C, C++, Python" />
+		<meta name="author" content="Jonathan Hoffstadt" />
+		<meta name="theme-color" content="#111111" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
 
-<style>
+		<!-- Header -->
+		<header id="header">
 
-    body {
-        background-color: #0e1824;
-        color: #fea27f;
-        font: 15px Calibri, sans-serif;
-    }
+			<!-- Logo -->
+			<a class="logo" href="#home" aria-label="Jonathan Hoffstadt home">
+				<span>Jonathan</span> <strong>Hoffstadt</strong>
+			</a>
 
-    a {
-        color: #fea27f;
-        font: 15px Calibri, sans-serif;
-    }
+			<!-- Navigation -->
+			<nav id="nav" aria-label="Primary navigation">
+				<ul>
+					<li><a href="#home" class="active">Home</a></li>
+					<!-- <li><a href="#about">About</a></li> -->
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
 
-    img {
-        alignment: center;
-        /*width: 10%;*/
-        /*height: 10%;*/
-    }
+		</header>
 
+		<main>
 
-</style>
+			<!-- Banner -->
+			<div id="home">
+				<div id="banner">
+					<article data-position="center center">
+						<div class="inner">
+							<img src="images/bistrofog.png" alt="Real-time graphics project by Jonathan Hoffstadt" />
+							<h1>Graphics &amp; Systems Engineer</h1>
+							<p>Building rendering engines, developer tools, and high-performance applications from the ground up.</p>
+						</div>
+					</article>
+					<article data-position="center center">
+						<div class="inner">
+							<img src="images/sponza1.PNG" alt="Pilot Light engine rendering demonstration" />
+							<h1>Pilot Light</h1>
+							<p>A lightweight, modular application framework and real-time rendering engine written in C.</p>
+						</div>
+					</article>
+					<article data-position="center center">
+						<div class="inner">
+							<img src="images/sky1.png" alt="Physically based real-time rendering scene" />
+							<h1>Real-Time Rendering</h1>
+							<p>Modern graphics architecture across Vulkan, Metal, and DirectX 12.</p>
+						</div>
+					</article>
+					<article data-position="center center">
+						<div class="inner">
+							<img src="images/courtyard3.PNG" alt="Engineering software and graphical tools" />
+							<h1>Developer Tools</h1>
+							<p>Practical software that turns complex engineering workflows into fast, approachable tools.</p>
+						</div>
+					</article>
+				</div>
+			</div>
 
-<body>
-    <div style="text-align: center;">
+			<!-- About -->
+			<section id="about" class="wrapper style1">
+				<div class="inner">
+					<header class="major">
+						<h2>Engineering close to the hardware</h2>
+						<p>I specialize in graphics programming, engine architecture, and technical software. My work spans low-level rendering APIs, real-time simulation, GUI frameworks, and production engineering tools.</p>
+					</header>
 
-        <img src="images/portrait.jpg" width="205" height="256" >
-        <p>
-            Hi, my name is Jonathan.
-            <br> Programmer / Mechanical Engineer
-            <br> (Clearly not a web developer)
-        </p>
+					<ul class="features">
+						<li>
+							<div class="triangle">
+								<div class="icon solid fa-cube"></div>
+							</div>
+							<h2>Real-Time Graphics</h2>
+							<p>Physically based rendering, deferred and forward pipelines, modern rendering techniques, and GPU-driven workflows.</p>
+						</li>
+						<li>
+							<div class="triangle">
+								<div class="icon solid fa-cogs"></div>
+							</div>
+							<h2>Engine Architecture</h2>
+							<p>Portable C and C++ systems with modular APIs, hot reload, fast compilation, and no external dependencies.</p>
+						</li>
+						<li>
+							<div class="triangle">
+								<div class="icon solid fa-tools"></div>
+							</div>
+							<h2>Technical Tooling</h2>
+							<p>High-performance desktop applications, Python tooling, engineering automation, visualization, and user-focused developer experiences.</p>
+						</li>
+					</ul>
 
-        <br> For tutoring, please see <A href="tutoring.html">here</A>.
-        <br>
+					<ul class="actions special">
+						<li><a href="#projects" class="button large special icon solid fa-arrow-down">View Projects</a></li>
+						<li><a href="https://github.com/hoffstadt" class="button large icon brands fa-github" target="_blank" rel="noopener noreferrer">GitHub Profile</a></li>
+					</ul>
+				</div>
+			</section>
 
+			<!-- Projects -->
+			<section id="projects" class="wrapper style2">
+				<div class="inner">
+					<header class="major">
+						<h2>Selected Projects</h2>
+						<p>A selection of graphics, systems, GUI, and engineering software projects.</p>
+					</header>
 
+					<section class="posts-grid" aria-label="Selected projects">
 
-        <br> Partial portfolio below (still a work in progress).
-        <br> Need to update for 2011-2017
+						<article>
+							<div class="image fit">
+								<img src="images/lunarterrain.jpg" alt="Custom physically based renderer built for Pilot Light" loading="lazy" />
+							</div>
+							<h3>Lunar Terrain System</h3>
+							<p><strong>2026</strong></p>
+							<p>A terrain extension for NASA's DcApp library. This is a double-precision,
+								chunked LOD terrain system for rendering extremely large environments.
+								Terrain regions are dynamically subdivided based on camera distance, preserving
+								positional accuracy at planetary scales while keeping geometry, memory usage, and
+								rendering costs manageable.
+							</p>
+							<ul class="actions">
+								<li><a href="https://github.com/nasa/dcapp" class="button small icon brands fa-github" target="_blank" rel="noopener noreferrer">Source Code</a></li>
+							</ul>
+						</article>
 
-        <br>
-        <br>Patents:
-        <br><A href="https://patents.google.com/patent/US11473702B1/en?oq=11473702">US11473702B1</A> Integral Expanded Upset
+						<article>
+							<div class="image fit">
+								<a href="https://github.com/PilotLightTech/pilotlight" target="_blank" rel="noopener noreferrer">
+									<img src="images/gateway.png" alt="Pilot Light real-time engine scene" loading="lazy" />
+								</a>
+							</div>
+							<h3>Pilot Light</h3>
+							<p><strong>2021–Present</strong></p>
+							<p>Creator and lead developer of Pilot Light, a lightweight real-time application framework
+								for building native tools, graphics experiments, prototypes, and small engine-style
+								applications with minimal dependencies.</p>
+							<ul class="actions">
+								<li><a href="https://github.com/PilotLightTech/pilotlight" class="button small icon brands fa-github" target="_blank" rel="noopener noreferrer">Source Code</a></li>
+							</ul>
+						</article>
 
-        <HR SIZE="1">
+						<article>
+							<div class="image fit">
+								<img src="images/custom.png" alt="Custom physically based renderer built for Pilot Light" loading="lazy" />
+							</div>
+							<h3>Unnamed Renderer</h3>
+							<p><strong>2023</strong></p>
+							<p>A deferred renderer built on Pilot Light's low-level graphics API for use in an AR mirror project. Features include PBR materials, image-based lighting, cascaded shadows, environment probes, and GPU resource management across Vulkan and Metal.</p>
+						</article>
 
-        <TABLE border=0 cellpadding=6>
-            <TR>
-                <TD valign=top width=420>
-                    2023-2024
-                    <BR>~ from Houston  ~
-                    <BR>
-                    <BR>Worked on a custom renderer for <B>METECs</B>.
-                    <BR>The renderer is built as an extension in my Pilot Light framework for use in an AR Mirror project. The renderer includes a physics based pipeline, vertex skinning, and realtime CSM shadow mapping.</BR>
-                </TD>
-                <br>
-                <TD>
-                    <img src="images/custom.png" width=60% height=auto>
-                </TD>
-            </TR>
-        </TABLE>
+						<article>
+							<div class="image fit">
+								<img src="images/star_engine.png" alt="NASA STAR Graphics Engine visualization" loading="lazy" />
+							</div>
+							<h3>STAR Graphics Engine</h3>
+							<p><strong>2022–2023</strong></p>
+							<p>Primary developer of NASA's STAR Graphics Engine, designed to support high-performance, low-power graphics applications for space missions and a wide range of hardware form factors.</p>
+						</article>
 
-        <HR SIZE="1">
+						<article>
+							<div class="image fit">
+								<a href="https://github.com/hoffstadt/DearPyGui" target="_blank" rel="noopener noreferrer">
+									<img src="images/dpg.png" alt="Dear PyGui desktop interface" loading="lazy" />
+								</a>
+							</div>
+							<h3>Dear PyGui</h3>
+							<p><strong>2019–Present</strong></p>
+							<p>Creator and maintainer of a fast, GPU-accelerated Python GUI framework built on Dear ImGui. The project provides a Python-friendly API for tools, dashboards, scientific applications, and interactive visualizations.</p>
+							<ul class="actions">
+								<li><a href="https://github.com/hoffstadt/DearPyGui" class="button small icon brands fa-github" target="_blank" rel="noopener noreferrer">Source Code</a></li>
+							</ul>
+						</article>
 
-        <TABLE border=0 cellpadding=6>
-            <TR>
-                <TD valign=top width=420>
-                    2022-2023
-                    <BR>~ from Houston  ~
-                    <BR>
-                    <BR>Worked on NASA's <B>STAR Graphics Engine</B>,
-                    <BR>The engine is being developed for the purposes of creating low power-draw, high-performance graphics applications for a variety of space missions and hardware form factors.
-                </TD>
-                <br>
-                <TD>
-                    <img src="images/star_engine.png" width=60% height=auto>
-                </TD>
-            </TR>
-        </TABLE>
+						<article>
+							<div class="image fit">
+								<img src="images/vgs.png" alt="Virtual Gauge System inspection software" loading="lazy" />
+							</div>
+							<h3>Virtual Gauge System</h3>
+							<p><strong>2020</strong></p>
+							<p>A hardware-accelerated virtual inspection system for threaded connections, built to improve repeatability and accelerate technical inspection workflows.</p>
+						</article>
 
-        <HR SIZE="1">
+						<article>
+							<div class="image fit">
+								<a href="https://github.com/hoffstadt/mvImporter" target="_blank" rel="noopener noreferrer">
+									<img src="images/mvimporter.png" alt="mvImporter physically based rendering test application" loading="lazy" />
+								</a>
+							</div>
+							<h3>mvImporter</h3>
+							<p><strong>2021</strong></p>
+							<p>A compact physically based renderer created as a focused test bed for asset importing, material handling, and real-time rendering experiments.</p>
+							<ul class="actions">
+								<li><a href="https://github.com/hoffstadt/mvImporter" class="button small icon brands fa-github" target="_blank" rel="noopener noreferrer">Source Code</a></li>
+							</ul>
+						</article>
 
-        <TABLE border=0 cellpadding=6>
-            <TR>
-                <TD valign=top width=420>
-                    2022-Present
-                    <BR>~ from Houston  ~
-                    <BR>
-                    <BR>Working on <B>Pilot Light</B>,
-                    <BR>a lightweight modern game engine with no dependencies.
-                    <BR><A href="https://github.com/PilotLightTech/pilotlight">https://github.com/PilotLightTech/pilotlight</A>.
-                </TD>
-                <br>
-                <TD>
-                    <img src="images/tooling2.png" width=60% height=auto>
-                </TD>
-            </TR>
-        </TABLE>
+						<article>
+							<div class="image fit">
+								<img src="images/marvel.PNG" alt="Marvel DirectX 12 renderer" loading="lazy" />
+							</div>
+							<h3>Marvel</h3>
+							<p><strong>2018</strong></p>
+							<p>A compact DirectX 12 renderer developed to explore explicit graphics APIs, rendering architecture, and low-level GPU resource management.</p>
+						</article>
 
-        <HR SIZE="1">
+						<article>
+							<div class="image fit">
+								<img src="images/connectiondesigner.png" alt="Threaded connection design optimization software" loading="lazy" />
+							</div>
+							<h3>Connection Designer</h3>
+							<p><strong>2018</strong></p>
+							<p>A permutation-based solver for exploring and evaluating threaded connection designs, reducing repetitive manual analysis during early design work.</p>
+						</article>
 
-        <TABLE border=0 cellpadding=6>
-            <TR>
-                <TD valign=top width=420>
-                    2021
-                    <BR>~ from Houston  ~
-                    <BR>
-                    <BR>Worked on <B>Dear Py3D</B>,
-                    <BR>a prototype Vulkan 3D renderer for <B>Dear PyGui</B>.
-                </TD>
-                <br>
-                <TD>
-                    <img src="images/dpg3d.png" width=60% height=auto>
-                </TD>
-            </TR>
-        </TABLE>
+						<article>
+							<div class="image fit">
+								<img src="images/gaugeworx.png" alt="GaugeWorx thread measurement system" loading="lazy" />
+							</div>
+							<h3>GaugeWorx</h3>
+							<p><strong>2019</strong></p>
+							<p>A thread measurement application designed to streamline dimensional inspection, calculation, and reporting workflows.</p>
+						</article>
 
-        <HR SIZE="1">
+						<article>
+							<div class="image fit">
+								<img src="images/themesample.PNG" alt="Collection of engineering calculation and design tools" loading="lazy" />
+							</div>
+							<h3>Engineer's Sandbox</h3>
+							<p><strong>2019</strong></p>
+							<p>A platform for creating and distributing small engineering applications. Includes theming and a built-in IDE.</p>
+						</article>
 
-        <TABLE border=0 cellpadding=6>
-            <TR>
-                <TD valign=top width=420>
-                    2020-Present
-                    <BR>~ from Houston  ~
-                    <BR>
-                    <BR>Working on <B>Dear PyGui</B>,
-                    <BR>a python GUI toolkit built with Dear ImGui.
-                    <BR><A href="https://github.com/hoffstadt/DearPyGui">https://github.com/hoffstadt/DearPyGui</A>.
+						<article>
+							<div class="image fit">
+								<img src="images/5c5tool.png" alt="Collection of engineering calculation and design tools" loading="lazy" />
+							</div>
+							<h3>API RP 5C5 2017 Tool</h3>
+							<p><strong>2018</strong></p>
+							<p>A API RP 5C5 2017 tool for calculating load schedules</p>
+						</article>
 
-                </TD>
-                <br>
-                <TD>
-                    <img src="images/dpg.png" width=60% height=auto>
-                </TD>
-            </TR>
-        </TABLE>
+						<article>
+							<div class="image fit">
+								<img src="images/collection2.png" alt="Collection of engineering calculation and design tools" loading="lazy" />
+							</div>
+							<h3>Engineering Tool Suite</h3>
+							<p><strong>2017</strong></p>
+							<p>A collection of internal desktop applications for load schedules, production string assembly, mechanical design support, and other specialized engineering workflows.</p>
+						</article>
 
-        <HR SIZE="1">
+						<article>
+							<div class="image fit">
+								<img src="images/cap4.JPG" alt="Collection of engineering calculation and design tools" loading="lazy" />
+							</div>
+							<h3>Unnamed Internal Tool</h3>
+							<p><strong>2017</strong></p>
+							<p>A production string assembly tool (prototype).</p>
+						</article>
+					</section>
+				</div>
+			</section>
 
-        <TABLE border=0 cellpadding=6>
-            <TR>
-                <TD valign=top width=420>
-                    2021
-                    <BR>~ from Houston  ~
-                    <BR>
-                    <BR>Worked on <B>mvImporter</B>,
-                    <BR>A small toy PBR renderer used for testing.
-                    <BR><A href="https://github.com/hoffstadt/mvImporter">https://github.com/hoffstadt/mvImporter</A>.
-                    <BR>
-                    <BR>
-                </TD>
-                <br>
-                <TD>
-                    <img src="images/mvimporter.png" width=60% height=auto>
-                </TD>
-            </TR>
-        </TABLE>
+		</main>
 
-        <HR SIZE="1">
+		<!-- Footer / Contact -->
+		<section id="footer">
+			<div id="contact" class="inner with-sidebar">
 
-        <TABLE border=0 cellpadding=6>
-            <TR>
-                <TD valign=top width=420>
-                    2020
-                    <BR>~ from Houston  ~
-                    <BR>
-                    <BR>Worked on <B>Virtual Gauge System</B>,
-                    <BR> a hardware accelerated threaded connection virtual inspection system.
-                    <BR>
-                </TD>
-                <br>
-                <TD>
-                    <img src="images/vgs.png" width=60% height=auto>
-                </TD>
-            </TR>
-        </TABLE>
+				<div class="content">
+					<section>
+						<header>
+							<h3>Let’s talk graphics, systems, and tools</h3>
+						</header>
+						<p>I enjoy working on technically demanding problems where performance, architecture, and usability all matter. The best place to explore my current work or start a conversation is GitHub.</p>
+						<ul class="actions">
+							<li><a href="https://github.com/hoffstadt" class="button primary icon brands fa-github" target="_blank" rel="noopener noreferrer">Visit GitHub</a></li>
+							<li><a href="https://github.com/PilotLightTech" class="button icon solid fa-code" target="_blank" rel="noopener noreferrer">Pilot Light Tech</a></li>
+						</ul>
+					</section>
+				</div>
 
-        <HR SIZE="1">
+				<div class="sidebar">
+					<header>
+						<h3>Core Focus</h3>
+					</header>
+					<section>
+						<ul class="alt">
+							<li>C and C++ systems programming</li>
+							<li>Vulkan, Metal, and DirectX 12</li>
+							<li>Real-time rendering and simulation</li>
+							<li>Engine and API architecture</li>
+							<li>Python GUI and developer tooling</li>
+						</ul>
+					</section>
+				</div>
 
-        <TABLE border=0 cellpadding=6>
-            <TR>
-                <TD valign=top width=420>
-                    2019
-                    <BR>~ from Houston  ~
-                    <BR>
-                    <BR>Worked on <B>GaugeWorx</B>,
-                    <BR>a thread measurement system.
-                    <BR>
-                </TD>
-                <br>
-                <TD>
-                    <img src="images/gaugeworx.png" width=60% height=auto>
+			</div>
+			<div class="copyright">
+				<span>&copy; 2026 Jonathan Hoffstadt. All rights reserved.</span>
+			</div>
+		</section>
 
-                </TD>
-            </TR>
-        </TABLE>
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.dropotron.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
 
-        <HR SIZE="1">
-
-        <TABLE border=0 cellpadding=6>
-            <TR>
-                <TD valign=top width=420>
-                    2019
-                    <BR>~ from Houston  ~
-                    <BR>
-                    <BR>Worked on <B>Engineer's Sandbox</B>,
-                    <BR>a platform for creating and distributing small engineering
-                    <BR>applications. Includes theming and a built-in IDE.
-                    <BR>
-                    <BR> Worked on a various small tools/apps to assist in house mechanical engineers.
-                </TD>
-                <br>
-                <TD>
-                    <BR>
-                    <BR>Overview
-                    <img src="images/collection1.png" width=75% height=auto border=0>
-                    <img src="images/collection2.png" width=75% height=auto border=0>
-                </TD>
-            </TR>
-        </TABLE>
-
-        <HR SIZE="1">
-
-        <TABLE border=0 cellpadding=6>
-            <TR>
-                <TD valign=top width=420>
-                    2018
-                    <BR>~ from Houston  ~
-                    <BR>
-                    <BR>Worked on <B>Marvel</B>,
-                    <BR>a small Directx 12 renderer.
-                    <BR>
-                </TD>
-                <br>
-                <TD>
-                    <img src="images/marvel.PNG" width=60% height=auto>
-
-                </TD>
-            </TR>
-        </TABLE>
-
-        <HR SIZE="1">
-
-        <TABLE border=0 cellpadding=6>
-            <TR>
-                <TD valign=top width=420>
-                    2018
-                    <BR>~ from Houston  ~
-                    <BR>
-                    <BR>Worked on <B>Connection Designer</B>,
-                    <BR>a brute force permutation based solver for threaded connection designs.
-                    <BR>
-                </TD>
-                <br>
-                <TD>
-                    <img src="images/connectiondesigner.png" width=60% height=auto>
-                </TD>
-            </TR>
-        </TABLE>
-
-        <HR SIZE="1">
-
-        <TABLE border=0 cellpadding=6>
-            <TR>
-                <TD valign=top width=420>
-                    2018
-                    <BR>~ from Houston  ~
-                    <BR>
-                    <BR>Worked on a <B>API RP 5C5 2017</B> tool for calculating load schedules.
-                    <BR>
-                </TD>
-                <br>
-                <TD>
-                    <img src="images/5c5tool.png" width=60% height=auto>
-                </TD>
-            </TR>
-        </TABLE>
-
-        <HR SIZE="1">
-
-        <TABLE border=0 cellpadding=6>
-            <TR>
-                <TD valign=top width=420>
-                    2017
-                    <BR>~ from Houma  ~
-                    <BR>
-                    <BR>Worked on a production string assembly tool (prototype).
-                    <BR>
-                </TD>
-                <br>
-                <TD>
-                    <img src="images/cap4.JPG" width=60% height=auto>
-                </TD>
-            </TR>
-        </TABLE>
-
-        <HR SIZE="1">
-
-        <TABLE border=0 cellpadding=6>
-            <TR>
-                <TD valign=top width=420>
-                    2017
-                    <BR>~ from Houma  ~
-                    <BR>
-                    <BR>Worked on a various small tools/apps to assist in house mechanical engineers.
-                    <BR>
-                </TD>
-                <br>
-                <TD>
-                    <img src="images/oldconnectiontool.png" width=60% height=auto>
-                    <img src="images/themesample.PNG" width=60% height=auto>
-                </TD>
-            </TR>
-        </TABLE>
-
-        <HR SIZE="1">
-
-        <TABLE border=0 cellpadding=6>
-            <TR>
-                <TD valign=top width=420>
-                    2016 - 2017
-                    <BR>~ from Baton Rouge  ~
-                    <BR>
-                    <BR>Worked on an arc welding 3D printer.
-                    <BR>
-                </TD>
-                <br>
-                <TD>
-                    <img src="images/023.JPG" width=60% height=auto>
-                </TD>
-            </TR>
-        </TABLE>
-
-        <HR SIZE="1">
-
-        <TABLE border=0 cellpadding=6>
-            <TR>
-                <TD valign=top width=420>
-                    2014 - 2017
-                    <BR>~ from Baton Rouge  ~
-                    <BR>
-                    <BR>Performed finite element analysis and computational fluid dynamics.
-                    <BR>
-                </TD>
-                <br>
-                <TD>
-                <TD>
-                    <img src="images/autopipe3.jpg" width=70% height=auto>
-                </TD>
-                <TD>
-                    <img src="images/fea2.jpg" width=70% height=auto>
-                </TD>
-                </TD>
-            </TR>
-        </TABLE>
-    </div>
-</body>
+	</body>
 </html>

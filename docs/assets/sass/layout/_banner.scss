@@ -1,0 +1,190 @@
+///
+/// Zenith by Pixelarity
+/// pixelarity.com | hello@pixelarity.com
+/// License: pixelarity.com/license
+///
+
+/* Banner */
+
+	#banner {
+		@include color-typography(invert);
+		@include vendor('display', 'flex');
+		@include vendor('flex-wrap', 'no-wrap');
+		cursor: default;
+		height: 45rem;
+		position: relative;
+
+		&:after {
+			@include vendor('pointer-events', 'none');
+			@include vendor('transition', 'opacity#{_duration(slider)} ease-in-out, visibility #{_duration(slider)}');
+			background: _palette(accent2);
+			content: '';
+			display: block;
+			height: 100%;
+			left: 0;
+			opacity: 0;
+			position: absolute;
+			top: 0;
+			visibility: hidden;
+			width: 100%;
+			z-index: 2;
+		}
+
+		> article {
+			@include vendor('transition', 'opacity #{_duration(slider)}, visibility #{_duration(slider)}');
+			@include vendor('display', 'flex');
+			@include vendor('align-items', 'center');
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 100%;
+			left: 0;
+			opacity: 0;
+			padding: 0;
+			position: absolute;
+			text-align: center;
+			top: 0;
+			visibility: hidden;
+			width: 100%;
+			z-index: _misc(z-index-base);
+
+			&:after {
+				@include vendor('transition', 'opacity #{_duration(slider)} ease-in-out');
+				background-color: transparentize(_palette(accent2), 0.25);
+				content: '';
+				height: 100%;
+				left: 0;
+				position: absolute;
+				top: 0;
+				width: 100%;
+			}
+
+			.inner {
+				> :last-child {
+					margin-bottom: 0;
+				}
+			}
+
+			h1, p {
+				position: relative;
+				z-index: _misc(z-index-base) + 2;
+			}
+
+			h1 {
+				font-size: 3rem;
+			}
+
+			p {
+				line-height: inherit;
+				font-size: 1.75rem;
+
+				&:before {
+					background-color: _palette(accent1);
+					content: '';
+					display: block;
+					height: 4px;
+					margin: 1.5rem auto;
+					width: 8rem;
+				}
+			}
+
+			&.visible {
+				opacity: 1;
+				visibility: visible;
+			}
+
+			&.top {
+				z-index: _misc(z-index-base) + 2;
+			}
+
+			img {
+				display: none;
+			}
+		}
+
+		.indicators {
+			bottom: 3rem;
+			line-height: 1;
+			list-style: none;
+			margin: 0 auto;
+			padding: 0;
+			position: absolute;
+			text-align: center;
+			width: 100%;
+
+			li {
+				cursor: pointer;
+				display: inline-block;
+				height: 1.25rem;
+				margin-left: 0.5rem;
+				overflow: hidden;
+				padding: 0;
+				position: relative;
+				text-indent: -2.5rem;
+				width: 1.25rem;
+				z-index: _misc(z-index-base) + 2;
+
+				&:before {
+					@include vendor('transform', 'translate(-50%, -50%)');
+					@include vendor('transition', 'background-color #{_duration(transition)} ease-in-out');
+					background-color: _palette(invert, fg-light);
+					border-radius: 100%;
+					content: '';
+					display: inline-block;
+					height: 1rem;
+					left: 50%;
+					position: absolute;
+					text-indent: 0;
+					top: 50%;
+					width: 1rem;
+				}
+
+				&.visible:before {
+					background-color: _palette(invert, fg-bold);
+				}
+			}
+		}
+
+		body.is-preload & {
+			&:after {
+				opacity: 1.0;
+				visibility: visible;
+			}
+		}
+
+		@include breakpoint('<=large') {
+			height: 40rem;
+		}
+
+		@include breakpoint('<=medium') {
+			.indicators {
+				display: none;
+			}
+		}
+
+		@include breakpoint('<=small') {
+			height: 25rem;
+
+			> article {
+				h1 {
+					font-size: 2.25rem;
+				}
+
+				p {
+					font-size: 1.25rem;
+				}
+			}
+		}
+
+		@include breakpoint('<=xsmall') {
+			height: 30rem;
+		}
+
+		body.is-preload & {
+			> article {
+				&:before {
+					opacity: 1;
+				}
+			}
+		}
+	}

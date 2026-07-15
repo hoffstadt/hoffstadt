@@ -1,0 +1,125 @@
+///
+/// Zenith by Pixelarity
+/// pixelarity.com | hello@pixelarity.com
+/// License: pixelarity.com/license
+///
+
+/* Features */
+
+	.features {
+		@include vendor('display', 'flex');
+		@include vendor('justify-content', 'center');
+		cursor: default;
+		list-style: none;
+		margin-bottom: (_size(element-margin) * 2);
+		margin-left: (_size(element-margin) * -0.5);
+		padding-left: 0;
+
+		li {
+			border-right: 1px solid;
+			margin-left: _size(element-margin);
+			padding-right: _size(element-margin);
+			text-align: center;
+
+			&:last-child {
+				border: none;
+			}
+
+			> :last-child {
+				margin: 0;
+			}
+		}
+
+		h2 {
+			font-size: 1.75rem;
+		}
+
+		p {
+			font-size: 1.25rem;
+		}
+
+		.triangle {
+			@include vendor('display', 'flex');
+			@include vendor('align-items', 'center');
+			@include vendor('justify-content', 'center');
+			background-image: url(images/triangle.svg);
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: 10rem;
+			height: 8rem;
+			margin: 0 auto _size(element-margin) auto;
+			width: 10rem;
+
+			.icon {
+				font-size: 3rem;
+				margin-top: 1.75rem;
+			}
+		}
+
+		@include breakpoint('<=large') {
+			margin-bottom: (_size(element-margin) * 1.5);
+
+			p {
+				font-size: 1rem;
+			}
+
+			.triangle {
+				background-size: 8rem;
+				height: 6rem;
+				width: 8rem;
+
+				.icon {
+					font-size: 2.5rem;
+					margin-top: 1.75rem;
+				}
+			}
+		}
+
+		@include breakpoint('<=medium') {
+			@include vendor('flex-direction', 'row');
+			@include vendor('flex-wrap', 'wrap');
+			margin-left: 0;
+
+			li {
+				border-bottom: 1px solid;
+				border-right: none;
+				margin-bottom: _size(element-margin);
+				margin-left: 0;
+				max-width: 30rem;
+				padding-bottom: _size(element-margin);
+				padding-right: 0;
+				width: 100%;
+
+				> :last-child {
+					margin-bottom: 0;
+				}
+
+				&:last-child {
+					margin-bottom: 0;
+					padding-bottom: 0;
+				}
+			}
+		}
+
+		@include breakpoint('<=small') {
+			li {
+				margin-bottom: _size(element-margin);
+				padding-bottom: _size(element-margin);
+			}
+		}
+	}
+
+	@mixin color-features($p: null) {
+		.features {
+			li {
+				border-color: _palette($p, border);
+				color: _palette($p, fg-bold);
+			}
+
+			.icon {
+				color: _palette(accent1);
+			}
+		}
+	}
+
+	@include color-box;

@@ -1,0 +1,24 @@
+///
+/// Zenith by Pixelarity
+/// pixelarity.com | hello@pixelarity.com
+/// License: pixelarity.com/license
+///
+
+/* Header */
+
+	header {
+		&.major {
+			margin-bottom: _size(element-margin) * 1.5;
+			text-align: center;
+		}
+
+		h2 + p {
+			font-size: 1.5rem;
+		}
+
+		@include breakpoint('<=small') {
+			h2 + p {
+				font-size: 1.25rem;
+			}
+		}
+	}
